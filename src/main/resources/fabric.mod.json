@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "mands",
+	"version": "${version}",
+	"name": "M and S <3",
+	"description": "A bunch of lovely additions just for us! YAY!",
+	"authors": [
+		"MoistyMonsoon",
+		"SophTheToad"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mands/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.moistymonsoon.mands.MAndS"
+		],
+		"client": [
+			"net.moistymonsoon.mands.MAndSClient"
+		],
+		"fabric-datagen": [
+			"net.moistymonsoon.mands.MAndSDataGenerator"
+		]
+	},
+	"mixins": [
+		"mands.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
