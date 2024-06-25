@@ -1,3 +1,6 @@
 {
-  "item.mands.trink": "Trink"
+  "item.mands.trink": "Trink",
+  "item.mands.lurcher_spawn_egg": "Lurcher Spawn Egg",
+
+  "entity.mands.lurcher": "Lurcher"
 }
